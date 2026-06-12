@@ -1,0 +1,320 @@
+[00:55:40] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.19.3
+[00:55:41] [main/WARN]: Warnings were found!
+ - Mod 'Debugify' (debugify) 1.21.11+1.1 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+[00:55:41] [main/INFO]: Loading 103 mods:
+	- chromaanvils 1.0.8
+	   |-- adventure-platform-fabric 6.8.0
+	   |    |-- net_kyori_adventure-api 4.25.0
+	   |    |-- net_kyori_adventure-key 4.25.0
+	   |    |-- net_kyori_adventure-platform-api 4.4.1
+	   |    |-- net_kyori_adventure-platform-mod-shared-fabric-repack 6.8.0
+	   |    |-- net_kyori_adventure-text-logger-slf4j 4.25.0
+	   |    |-- net_kyori_adventure-text-minimessage 4.25.0
+	   |    |-- net_kyori_adventure-text-serializer-ansi 4.25.0
+	   |    |-- net_kyori_adventure-text-serializer-gson 4.25.0
+	   |    |-- net_kyori_adventure-text-serializer-json 4.25.0
+	   |    |-- net_kyori_adventure-text-serializer-plain 4.25.0
+	   |    |-- net_kyori_ansi 1.1.1
+	   |    |-- net_kyori_examination-api 1.3.0
+	   |    |-- net_kyori_examination-string 1.3.0
+	   |    \-- net_kyori_option 1.1.0
+	   \-- fabric-permissions-api-v0 0.6.1
+	- cloth-config 21.11.153
+	   \-- cloth-basic-math 0.6.1
+	- debugify 1.21.11+1.1
+	- disableportalchecks 1.0.0
+	- elytra-chestplate-swapper 2.0.1
+	- enchanter_fix 1.8
+	- fabric-api 0.141.3+1.21.11
+	   |-- fabric-api-base 1.0.5+4ebb5c083e
+	   |-- fabric-api-lookup-api-v1 1.6.114+20dc27073e
+	   |-- fabric-biome-api-v1 17.1.1+4fc5413f3e
+	   |-- fabric-block-api-v1 1.1.10+4ebb5c083e
+	   |-- fabric-block-view-api-v2 1.0.39+4ebb5c083e
+	   |-- fabric-command-api-v2 2.4.7+6b42a6003e
+	   |-- fabric-content-registries-v0 10.2.14+4fc5413f3e
+	   |-- fabric-convention-tags-v1 2.1.55+7f945d5b3e
+	   |-- fabric-convention-tags-v2 2.17.3+8ef948ba3e
+	   |-- fabric-crash-report-info-v1 0.3.23+4ebb5c083e
+	   |-- fabric-data-attachment-api-v1 1.8.47+eed0806f3e
+	   |-- fabric-data-generation-api-v1 23.4.0+69974c4e3e
+	   |-- fabric-dimensions-v1 4.0.28+4fc5413f3e
+	   |-- fabric-entity-events-v1 3.1.1+1d0ab4303e
+	   |-- fabric-events-interaction-v0 4.1.0+3b89ecf63e
+	   |-- fabric-game-rule-api-v1 2.0.3+4fc5413f3e
+	   |-- fabric-item-api-v1 11.5.20+d0c46b9e3e
+	   |-- fabric-item-group-api-v1 4.2.36+4fc5413f3e
+	   |-- fabric-key-binding-api-v1 1.1.7+4fc5413f3e
+	   |-- fabric-lifecycle-events-v1 2.6.15+4ebb5c083e
+	   |-- fabric-loot-api-v2 3.0.73+3f89f5a53e
+	   |-- fabric-loot-api-v3 2.0.20+78c8b4663e
+	   |-- fabric-message-api-v1 6.1.12+4ebb5c083e
+	   |-- fabric-model-loading-api-v1 6.0.15+4fc5413f3e
+	   |-- fabric-networking-api-v1 5.1.5+ae1e07683e
+	   |-- fabric-object-builder-api-v1 21.1.39+4fc5413f3e
+	   |-- fabric-particles-v1 4.2.11+4fc5413f3e
+	   |-- fabric-recipe-api-v1 8.2.3+4ebb5c083e
+	   |-- fabric-registry-sync-v0 6.2.5+1718722b3e
+	   |-- fabric-renderer-api-v1 8.0.3+f4ffd2e53e
+	   |-- fabric-renderer-indigo 5.0.3+f4ffd2e53e
+	   |-- fabric-rendering-fluids-v1 3.1.43+4ebb5c083e
+	   |-- fabric-rendering-v1 16.2.10+0290ad933e
+	   |-- fabric-resource-conditions-api-v1 5.0.35+4fc5413f3e
+	   |-- fabric-resource-loader-v0 3.3.4+4fc5413f3e
+	   |-- fabric-resource-loader-v1 1.0.10+78c8b4663e
+	   |-- fabric-screen-api-v1 3.1.7+4ebb5c083e
+	   |-- fabric-screen-handler-api-v1 1.3.161+4fc5413f3e
+	   |-- fabric-serialization-api-v1 1.0.5+4ebb5c083e
+	   |-- fabric-sound-api-v1 1.0.51+4fc5413f3e
+	   |-- fabric-tag-api-v1 1.2.20+4fc5413f3e
+	   |-- fabric-transfer-api-v1 6.0.25+4fc5413f3e
+	   \-- fabric-transitive-access-wideners-v1 7.1.0+014c8cec3e
+	- fabric-language-kotlin 1.13.10+kotlin.2.3.20
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.3.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.3.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.3.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.3.20
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.32.1
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.10.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.10.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.10.0
+	- fabricloader 0.19.3
+	   \-- mixinextras 0.5.4
+	- ferritecore 8.2.0
+	- fsit 2.9.1+mc1.21.11
+	- java 21
+	- krypton 0.2.10
+	   \-- com_velocitypowered_velocity-native 3.4.0-SNAPSHOT
+	- ksyxis 1.4.3
+	- leashmod 1.2.5+1.21.11
+	- lithium 0.21.4+mc1.21.11
+	- minecraft 1.21.11
+	- mr_norollback 2.1
+	- noisium 2.8.3+mc1.21.11
+	- packetfixer 3.3.5
+	- relay-nm 0.1.2
+	- scalablelux 0.1.6+fabric.c25518a
+	- skinrestorer 2.7.0+1.21.11-fabric
+	   \-- org_mineskin_java-client 3.2.1-SNAPSHOT
+	- spark 1.10.170
+	   \-- fabric-permissions-api-v0 0.6.1
+	- tt20 0.8.3
+	- yet_another_config_lib_v3 3.8.2+1.21.11-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+[00:55:42] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/losingmymind/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[00:55:42] [main/INFO]: Compatibility level set to JAVA_21
+[00:55:43] [main/INFO]: Loaded configuration file for Lithium: 171 options available, 0 override(s) found.
+[00:55:43] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:55:43] [main/WARN]: Reference map 'skinrestorer.refmap.json' for skinrestorer.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:55:43] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:55:43] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:55:44] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.4).
+[00:55:51] [main/INFO]: Enabled 60 bug fixes: [MC-7569, MC-8187, MC-30391, MC-44654, MC-82263, MC-84661, MC-88371, MC-89146, MC-93018, MC-94054, MC-100991, MC-119754, MC-121706, MC-121903, MC-123450, MC-123605, MC-129909, MC-131562, MC-132878, MC-133218, MC-134110, MC-136249, MC-139041, MC-147659, MC-153010, MC-155509, MC-158900, MC-159283, MC-160095, MC-168573, MC-170462, MC-176806, MC-177381, MC-179072, MC-183990, MC-187100, MC-200418, MC-201374, MC-202637, MC-206922, MC-215530, MC-219981, MC-221257, MC-223153, MC-224729, MC-226961, MC-227008, MC-227337, MC-231743, MC-232869, MC-245394, MC-263999, MC-264285, MC-264979, MC-267125, MC-268617, MC-271899, MC-272431, MC-297837, MC-298066]
+[00:55:51] [main/INFO]: Successfully Debugify'd your game!
+[00:55:51] [main/INFO]: Removing portal checks...
+[00:55:51] [main/INFO]: Hello Fabric world!
+[00:55:52] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.x.x (Linux x86_64)
+[00:55:52] [main/INFO]: Ksyxis: Loading... (platform: fabric, version: 1.4.3, manual: false)
+[00:55:52] [main/INFO]: Ksyxis: Ready to remove unneeded chunks. (mixinVersion: 0.8.7, time: 0 ms)
+[00:55:52] [main/INFO]: Initialized LeashPlayers
+[00:55:52] [main/INFO]: Loading Noisium.
+[00:55:52] [main/INFO]: Loaded Noisium config from resource
+[00:55:52] [main/INFO]: Noisium config: noiseChunkGenerator=true, generationShapeConfig=true, chunkSection=true, chainedBlockSource=true, useGuiGraphics=true
+[00:55:52] [main/INFO]: Loaded Fabric config from ./config/noisium.json
+[00:55:52] [main/INFO]: Packet Fixer 3.3.5 Fabric has been initialized!
+[00:55:52] [main/INFO]: [RelayNM] Booting Relay - Network Manager on 1.21.8 - 1.21.11
+[00:55:52] [main/INFO]: [RelayNM] Mode=vanilla_safe scheduler=true bulk=true compression=true flood=true timeoutGrace=true
+[00:55:52] [main/INFO]: [RelayNM] Queue policy: bulkOnly=true deferChunkPackets=true adaptivePackets=32 adaptiveBytes=131072 maxQueueDelayMs=60
+[00:55:52] [main/INFO]: [RelayNM] Platform hooks=Fabric 1.21.8 - 1.21.11
+[00:55:52] [main/INFO]: [RelayNM] Config=/workspaces/losingmymind/servidor_minecraft/./config/relay/relay.toml
+[00:55:53] [main/INFO]: Starting TT20...
+[00:55:53] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[00:55:53] [ForkJoinPool.commonPool-worker-1/INFO]: (TT20) Checking for updates...
+[00:55:53] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[00:55:53] [main/INFO]: Ksyxis: No compatibility hacks were used.
+[00:55:54] [main/ERROR]: Couldn't load file/Terralith_1.21.11_v2.6.0.zip fabric:overlays metadata: Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config; Unknown resource condition key: terralith:config
+[00:55:55] [main/ERROR]: Couldn't load file/lukis-grand-capitals-v1.1.3.zip pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[00:55:59] [Worker-Main-3/ERROR]: Couldn't parse data file 'epic:chests/scary' from 'epic:loot_table/chests/scary.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain': net.minecraft.class_52@44dfd747]
+[00:55:59] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:entities/player@minecraft:loot_table}.pools[1].entries[0]: Missing element player_heads:entities/player of type minecraft:loot_table
+[00:56:01] [main/INFO]: Loaded 1472 recipes
+[00:56:01] [main/ERROR]: Failed to load function stm:silk_touch_effect
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Malformed 'minecraft:enchantments' component: 'Not a number; Failed to get element minecraft:levels missed input: {levels:{"minecraft:silk_touch":1}}' at position 75: ...hantments=<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770)
+	at knot//net.minecraft.class_4014.method_67576(class_4014.java:51)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Malformed 'minecraft:enchantments' component: 'Not a number; Failed to get element minecraft:levels missed input: {levels:{"minecraft:silk_touch":1}}' at position 75: ...hantments=<--[HERE]
+	at knot//net.minecraft.class_2158.method_9195(class_2158.java:80)
+	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	... 7 more
+[00:56:01] [main/ERROR]: Failed to load function stm:fortune_effect
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Can't parse function line 1: 'execute if block ~ ~ ~ air run return fail'
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770)
+	at knot//net.minecraft.class_4014.method_67576(class_4014.java:51)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Caused by: java.lang.IllegalArgumentException: Can't parse function line 1: 'execute if block ~ ~ ~ air run return fail'
+	at knot//net.minecraft.class_8867.method_54421(class_8867.java:49)
+	at knot//net.minecraft.class_2158.method_9195(class_2158.java:75)
+	at knot//net.minecraft.class_5349.method_29451(class_5349.java:85)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	... 7 more
+Caused by: java.lang.IllegalArgumentException: No variables in macro
+	at knot//net.minecraft.class_8873.method_54432(class_8873.java:36)
+	at knot//net.minecraft.class_8867.method_54421(class_8867.java:47)
+	... 10 more
+[00:56:01] [main/INFO]: Loaded 1993 advancements
+[00:56:01] [main/INFO]: Applied 0 biome modifications to 0 of 168 new biomes in 1.803 ms
+[00:56:02] [Server thread/INFO]: Starting background profiler...
+[00:56:03] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[00:56:03] [Server thread/INFO]: Loading properties
+[00:56:03] [Server thread/INFO]: Default game type: SURVIVAL
+[00:56:03] [Server thread/INFO]: Generating keypair
+[00:56:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:56:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:56:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:56:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:56:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:56:03] [Server thread/INFO]: Preparing level "world"
+[00:56:04] [Server thread/INFO]: Ksyxis: Speeding up the world loading... Delete the mod, if it got stuck after this message. (net.minecraft.class_3176 method_3774)
+[00:56:04] [Server thread/INFO]: Loading 25 persistent chunks...
+[00:56:04] [Server thread/INFO]: Preparing spawn area: 28%
+[00:56:04] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is disabled (due to low parallelism in the settings)
+[00:56:05] [Server thread/INFO]: Preparing spawn area: 28%
+[00:56:05] [Server thread/INFO]: Preparing spawn area: 28%
+[00:56:06] [Server thread/INFO]: Preparing spawn area: 28%
+[00:56:06] [Server thread/INFO]: Preparing spawn area: 28%
+[00:56:07] [Server thread/INFO]: Preparing spawn area: 28%
+[00:56:07] [Server thread/INFO]: Preparing spawn area: 28%
+[00:56:08] [Server thread/INFO]: Preparing spawn area: 28%
+[00:56:08] [Server thread/INFO]: Preparing spawn area: 28%
+[00:56:09] [Server thread/INFO]: Preparing spawn area: 28%
+[00:56:09] [Server thread/INFO]: Preparing spawn area: 28%
+[00:56:10] [Server thread/INFO]: Preparing spawn area: 28%
+[00:56:10] [Server thread/INFO]: Preparing spawn area: 28%
+[00:56:11] [Server thread/INFO]: Preparing spawn area: 28%
+[00:56:11] [Server thread/INFO]: Preparing spawn area: 28%
+[00:56:12] [Server thread/INFO]: Preparing spawn area: 28%
+[00:56:12] [Server thread/INFO]: Preparing spawn area: 28%
+[00:56:13] [Server thread/INFO]: Preparing spawn area: 28%
+[00:56:13] [Server thread/INFO]: Preparing spawn area: 28%
+[00:56:14] [Server thread/INFO]: Preparing spawn area: 37%
+[00:56:15] [Server thread/INFO]: Preparing spawn area: 42%
+[00:56:15] [Server thread/INFO]: Time elapsed: 10489 ms
+[00:56:15] [Server thread/INFO]: Done (11.959s)! For help, type "help"
+[00:57:12] [Server thread/INFO]: boidoxx[/10.146.226.20:62840] logged in with entity id 161 at (389.84108183906494, 72.0, 1285.6334087204048)
+[00:57:12] [Server thread/INFO]: boidoxx joined the game
+[00:57:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2247ms or 44 ticks behind
+[01:08:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=401, y=72, z=1290} class_2338{x=397, y=72, z=1290}
+[01:12:48] [Server thread/INFO]: Villager class_1646['Villager'/7830, l='ServerLevel[world]', x=193.03, y=78.00, z=1016.30] died, message: 'Villager was slain by Zombie'
+[01:12:57] [Server thread/INFO]: Villager class_1646['Villager'/7819, l='ServerLevel[world]', x=188.88, y=73.00, z=1021.31] died, message: 'Villager was slain by Zombie'
+[01:23:19] [Server thread/INFO]: [Not Secure] [Server] are you sure you are good?
+[01:23:29] [Server thread/INFO]: [Not Secure] <boidoxx> i don't think so.
+[01:23:36] [Server thread/INFO]: [Not Secure] <boidoxx> i miss her
+[01:23:55] [Server thread/INFO]: [Not Secure] <boidoxx> she's probably gone because of her studies so i shouldn't worry or be impatient
+[01:24:04] [Server thread/INFO]: [Not Secure] <boidoxx> that's why i'm waiting for her
+[01:25:17] [Server thread/INFO]: [Not Secure] <boidoxx> i don't even know how did i got so attached to someone like her
+[01:25:23] [Server thread/INFO]: [Not Secure] <boidoxx> she's too good for me
+[01:25:38] [Server thread/INFO]: [Not Secure] <boidoxx> i had thoughts about it, even considered it.
+[01:25:48] [Server thread/INFO]: [Not Secure] <boidoxx> but i don't know if she will reciprocate like i do
+[01:26:09] [Server thread/INFO]: [Not Secure] [Server] you look stupid saying that, y'know?
+[01:26:14] [Server thread/INFO]: [Not Secure] [Server] she got her own ways to love
+[01:26:22] [Server thread/INFO]: [Not Secure] [Server] you gotta respect that not matter what you do
+[01:26:33] [Server thread/INFO]: [Not Secure] [Server] you are her boyfriend, not someone who searchs love everywhere.
+[01:26:43] [Server thread/INFO]: [Not Secure] <boidoxx> maybe you are right.
+[01:26:45] [Server thread/INFO]: [Not Secure] [Server] i am
+[01:27:01] [Server thread/INFO]: [Not Secure] <boidoxx> One day, she will be able to love again
+[01:27:04] [Server thread/INFO]: [Not Secure] <boidoxx> i know she will
+[01:27:33] [Server thread/INFO]: [Not Secure] <boidoxx> after all she went through.. i alone expect to her to get better, to be the best version of herself.
+[01:27:45] [Server thread/INFO]: [Not Secure] <boidoxx> because i believe she can be better
+[01:27:56] [Server thread/INFO]: [Not Secure] <boidoxx> because i love her
+[01:28:03] [Server thread/INFO]: [Not Secure] <boidoxx> i never really wanted to love someone online
+[01:28:06] [Server thread/INFO]: [Not Secure] <boidoxx> but here i am
+[01:28:20] [Server thread/INFO]: [Not Secure] <boidoxx> i really love her
+[01:28:30] [Server thread/INFO]: [Not Secure] <boidoxx> i'm afraid of losing the only person who ever made me feel like this
+[01:28:37] [Server thread/INFO]: [Not Secure] <boidoxx> i'm so insecure of everything related to myself
+[01:28:40] [Server thread/INFO]: [Not Secure] <boidoxx> my teeths
+[01:28:41] [Server thread/INFO]: [Not Secure] <boidoxx> my face
+[01:28:42] [Server thread/INFO]: [Not Secure] <boidoxx> my body
+[01:28:45] [Server thread/INFO]: [Not Secure] <boidoxx> i'm ugly
+[01:28:49] [Server thread/INFO]: [Not Secure] <boidoxx> i know that for sure
+[01:29:03] [Server thread/INFO]: [Not Secure] <boidoxx> she calls herself ugly, i know that's a lie
+[01:29:07] [Server thread/INFO]: [Not Secure] <boidoxx> she never been ugly
+[01:29:09] [Server thread/INFO]: [Not Secure] <boidoxx> not a single bit
+[01:29:15] [Server thread/INFO]: [Not Secure] <boidoxx> even if i'm coping and trying to fool myself
+[01:29:19] [Server thread/INFO]: [Not Secure] <boidoxx> she's not ugly
+[01:29:27] [Server thread/INFO]: [Not Secure] <boidoxx> to be honest? she was never ugly
+[01:29:34] [Server thread/INFO]: [Not Secure] <boidoxx> but i?
+[01:29:43] [Server thread/INFO]: [Not Secure] <boidoxx> i'm everything she ever called herself before
+[01:29:51] [Server thread/INFO]: [Not Secure] <boidoxx> because i will be never be pretty
+[01:30:12] [Server thread/INFO]: [Not Secure] <boidoxx> i know that.
+[01:30:27] [Server thread/INFO]: [Not Secure] <boidoxx> i'm sorry for not being perfect
+[01:30:34] [Server thread/INFO]: [Not Secure] <boidoxx> but i do try my best to be enough for you
+[01:30:42] [Server thread/INFO]: [Not Secure] <boidoxx> even if we live so far from each other
+[01:30:56] [Server thread/INFO]: [Not Secure] <boidoxx> thank you for bringing me the happiness i never experienced before
+[01:31:00] [Server thread/INFO]: [Not Secure] <boidoxx> lumi.
+[01:31:21] [Server thread/INFO]: [Not Secure] <boidoxx> i'm happy that you ever gotten to exist
+[01:31:26] [Server thread/INFO]: [Not Secure] <boidoxx> your own existence
+[01:31:29] [Server thread/INFO]: [Not Secure] <boidoxx> your own presence
+[01:31:31] [Server thread/INFO]: [Not Secure] <boidoxx> i love it
+[01:31:35] [Server thread/INFO]: [Not Secure] <boidoxx> every single bit of it
+[01:31:41] [Server thread/INFO]: [Not Secure] <boidoxx> i may be exagerating
+[01:31:47] [Server thread/INFO]: [Not Secure] <boidoxx> but that's how i actually feel about you
+[01:31:52] [Server thread/INFO]: [Not Secure] <boidoxx> even if you don't think like me
+[01:31:59] [Server thread/INFO]: [Not Secure] <boidoxx> that's what i think about you
+[01:32:39] [Server thread/INFO]: [Not Secure] <boidoxx> thank you for everything
+[01:32:52] [Server thread/INFO]: [Not Secure] <boidoxx> even if we have 3 months of friendship
+[01:32:57] [Server thread/INFO]: [Not Secure] <boidoxx> now being a couple
+[01:33:05] [Server thread/INFO]: [Not Secure] <boidoxx> i really never expected to be your boyfriend
+[01:33:09] [Server thread/INFO]: [Not Secure] <boidoxx> or that you were in love with me
+[01:33:17] [Server thread/INFO]: [Not Secure] <boidoxx> i been alone so much time in my life
+[01:33:26] [Server thread/INFO]: [Not Secure] <boidoxx> yet you happened to appear
+[01:33:29] [Server thread/INFO]: [Not Secure] <boidoxx> like a miracle
+[01:33:31] [Server thread/INFO]: [Not Secure] <boidoxx> hah
+[01:33:45] [Server thread/INFO]: [Not Secure] <boidoxx> i'm just a boy in love.
+[01:33:50] [Server thread/INFO]: [Not Secure] <boidoxx> that's what i am really i am
+[01:33:53] [Server thread/INFO]: [Not Secure] <boidoxx> a ugly boy in love
+[01:34:07] [Server thread/INFO]: [Not Secure] <boidoxx> love lies in the person and not in the appearance they say
+[01:34:26] [Server thread/INFO]: [Not Secure] <boidoxx> i'm yet to discover the truth behind those words the day i show her my face
+[01:34:44] [Server thread/INFO]: [Not Secure] <boidoxx> i'll finish it all if she says something about it
+[01:39:08] [Server thread/INFO]: boidoxx lost connection: Disconnected
+[01:39:08] [Server thread/INFO]: boidoxx left the game
+[01:40:08] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[01:44:38] [Server thread/INFO]: Stopping the server
+[01:44:38] [Server thread/INFO]: Stopping server
+[01:44:38] [Server thread/INFO]: Saving players
+[01:44:38] [Server thread/INFO]: Saving worlds
+[01:44:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:44:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01:44:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01:44:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:44:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:44:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:44:38] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:44:38] [RelayNM-ShutdownHook/INFO]: [RelayNM] Closing with 0 tracked connection state objects

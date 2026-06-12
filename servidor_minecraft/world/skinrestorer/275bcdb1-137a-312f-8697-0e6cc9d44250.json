@@ -1,0 +1,11 @@
+{
+  "provider": "web",
+  "argument": "https://minesk.in/dc697e87fb8444bfba8470fc0aba57bc",
+  "variant": "classic",
+  "value": {
+    "name": "textures",
+    "value": "ewogICJ0aW1lc3RhbXAiIDogMTc3OTU5MjcwNjc2NiwKICAicHJvZmlsZUlkIiA6ICIxMzEzZGFmMDc2OGQ0YmQ5Yjc1ODJkMGI1NWUwZGQxNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMZW50aWNjaGllIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNjMTM4NzBmYTA2MTNjYzIyY2ZmZGMyMTZkMTY1YWRlYjIwOGI1MmExNmQ5ODU4Nzc0YzA4Njg5MGFjNjY1ZDkiCiAgICB9CiAgfQp9",
+    "signature": "aO24M85qjSYJCxo4tUudJRckLtjPrKAvj1581aInZRSIlMqc4qxZfPqkkKO9/cghyLCdrLpwl/AelxP1yygQBigGrTbk1NJOm3+iLou6rhNugPaeT+LUoVZs114Xo2fMwx3zZjvKhD1YOF/XyQzrx3FnQSi3IIeyDYmrkhsT4w4/HKaL0h/9AXLry+bdpCfMbTlRPWl1M/SX7KnK/V5mt40jtOnzevPyUS8Mo4yOgiMtlTdbfJGnZ428RI2cyP/0zK4pH0MAbnhhFJC5EBhbYcf/rDOpD8LYbWzMpNM7ChjYrvcC2VBuPu8J1cmODAlnrjxLXyitBv9vrB+Ezrj781h3zPVazjeo9mRGTZ4uFJ3kFOicvIgDZshJZw08jrZy5JqR/l9Ff1395Z1R3OBOiGpDmnO3Bi5QPWEqVjeUYJ8W7D5XMEKoH0W9qwSEA4EK23QKOOi9aLl1PxVqDk50omW0iKnnJBUgok0ManJNmW8JcWtdcaOi4Fdgqj1Dfk8d1R5+Yd27hWym7Dtg5p9uwdUgpwOkRn9oHymnrUq2hDZ0QChavyru9qXe3GLOYO5tEp506IlZkFlnh1YGiMzb7vrfarv5obKszPcX+ZeauPzJ/IyySWiM9YB6weIlllHdRYuSaNF964WYYmiQEyzfjWYoUAhHDvQGrIcSY78Ej3o\u003d"
+  },
+  "version": 1
+}

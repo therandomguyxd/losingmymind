@@ -1,0 +1,4 @@
+AnvilTextLimit = 255
+NameLimit = 50
+UsePermissions = true
+BlackListedItems = ["minecraft:name_tag <-example"]

@@ -1,0 +1,66 @@
+schema_version = 3
+mode = "vanilla_safe"
+
+[scheduler]
+enabled = true
+client_enabled = true
+server_enabled = true
+same_tick_flush_coalescing = true
+strict_order_barriers = true
+adaptive_flush_packet_threshold = 32
+adaptive_flush_byte_threshold = 131072
+max_queue_delay_ms = 60
+queue_gameplay_on_high_latency = false
+high_latency_threshold_ms = 120
+
+safe_mode_gameplay_drain_budget = 1
+very_high_latency_threshold_ms = 220
+very_high_latency_bulk_packet_scale_percent = 80
+very_high_latency_bulk_byte_scale_percent = 80
+
+[bulk]
+enabled = true
+max_packets_per_tick = 32
+max_bytes_per_tick = 262144
+max_backlog_bytes = 4194304
+defer_chunk_packets = true
+drop_stale_chunks = false
+drop_stale_after_ticks = 10
+max_queued_packets = 256
+max_queued_bytes = 8388608
+
+[compression]
+enabled = true
+login_threshold = 256
+reject_bad_packets = true
+
+[compression.custom_payload]
+enabled = true
+threshold = 384
+level = 1
+
+[timeouts]
+enabled = true
+extra_keepalive_grace_ms = 10000
+max_consecutive_misses = 1
+
+[flood]
+enabled = true
+unknown_custom_payload_packets_per_sec = 40
+unknown_custom_payload_burst = 80
+relay_packets_per_sec = 80
+relay_burst = 160
+disconnect_on_repeat = true
+
+[security]
+max_relay_payload_bytes = 524288
+disconnect_on_malformed_relay_payload = true
+[compat]
+bypass_channels = []
+disable_bulk_governor_if_mod_loaded = ["viafabricplus"]
+
+[logging]
+summary_on_disconnect = true
+trace_packets = false
+trace_connection_id = ""
+stats_on_disconnect = true
